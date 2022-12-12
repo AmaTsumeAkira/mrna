@@ -1,0 +1,23 @@
+/* 在屏幕宽度大于等于1000px时，应用下面的样式 */
+@media (min-width: 1000px) {
+  /* 在这里写样式 */
+  body {
+    font-size: 18px;
+  }
+}
+
+/* 在屏幕宽度大于等于768px且小于1000px时，应用下面的样式 */
+@media (min-width: 768px) and (max-width: 999px) {
+  /* 在这里写样式 */
+  body {
+    font-size: 16px;
+  }
+}
+
+/* 在屏幕宽度小于等于767px时，应用下面的样式 */
+@media (max-width: 767px) {
+  /* 在这里写样式 */
+  body {
+    font-size: 14px;
+  }
+}
